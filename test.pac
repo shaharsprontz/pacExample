@@ -12,3 +12,5 @@ function FindProxyForURL(url, host) {
   // should that fail to respond, go directly to the WWW:
   return "PROXY proxy.example.com:8080; DIRECT";
 }
+
+console.log('test')
