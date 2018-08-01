@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
   // our local URLs from the domains below example.com don't need a proxy:
-  if (shExpMatch(host, "*.example.com")) return "DIRECT";
+  if (shExpMatch(host, "*.example.com")) return console.log('redirect');
 
   // URLs within this network are accessed through
   // port 8080 on fastproxy.example.com:
